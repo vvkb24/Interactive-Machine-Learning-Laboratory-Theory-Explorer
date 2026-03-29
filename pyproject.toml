@@ -1,0 +1,30 @@
+[project]
+name = "syllabusml"
+version = "0.1.0"
+description = "SyllabusML - Production-grade Machine Learning Lab & Theory Hub"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio>=4.0.0",
+    "hydra-core>=1.3.2",
+    "joblib>=1.3.2",
+    "matplotlib>=3.8.0",
+    "numpy>=1.26.0",
+    "omegaconf>=2.3.0",
+    "pandas>=2.1.0",
+    "plotly>=5.18.0",
+    "scikit-learn>=1.4.0",
+    "seaborn>=0.13.0",
+]
+
+[project.scripts]
+syllabusml = "syllabusml:main"
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.workspace]
+members = [
+    "SyllabusML",
+]
