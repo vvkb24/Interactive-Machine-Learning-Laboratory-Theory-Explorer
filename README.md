@@ -1,12 +1,20 @@
 # 👋 SyllabusML – Complete Interactive ML Lab & Theory Explorer
 
-**SyllabusML** is a production-grade, modular, and highly interactive Python framework designed to bridge the gap between academic Machine Learning syllabi and real-world Engineering standards. It provides a unified, multi-tab dashboard built with **Gradio**, covering 100% of the standard ML laboratory experiments and core theoretical concepts.
+# SyllabusML
 
----
+I created this repo because staring at boring lecture notes and 47 broken Jupyter notebooks was slowly killing my soul.
 
-## 🚀 Overview
+Like any sane student, I ditched the boring PDFs and built this multi-tab Gradio app.
 
-The purpose of **SyllabusML** is to provide students and researchers with a "living laboratory." Instead of static scripts or notebooks, it offers a scalable architecture for exploring data, training models, and visualizing complex AI theories.
+It has everything: Mean, Median, Mode, House Price predictions, Decision Trees that love to overfit, and even some theory visualizations that sometimes make sense.
+
+**Current status**: It works on my machine. Sometimes.
+
+This is 100% open source.  
+If you also suffer from the same syllabus, feel free to use it.  
+If you're a pro ML Engineer and you're laughing at my code — congratulations, you're correct. Send a PR and fix my life.
+
+Built with existential crisis and coffee.
 
 ### **Key Features**
 - **Unified Dashboard**: A sleek, multi-tab interface using `gr.Blocks`.
