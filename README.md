@@ -1,6 +1,6 @@
-# 👋 SyllabusML – Complete Interactive ML Lab & Theory Explorer
+# Complete Interactive ML Lab & Theory Explorer
 
-# SyllabusML
+
 
 I created this repo because staring at boring lecture notes and 47 broken Jupyter notebooks was slowly killing my soul.
 
